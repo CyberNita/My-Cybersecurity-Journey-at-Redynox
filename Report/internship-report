@@ -1,0 +1,23 @@
+# COMPREHENSIVE CYBERSECURITY PORTFOLIO AUDIT REPORT
+**Author:** Anita Nwokem  
+**Repository:** My-Cybersecurity-Journey-at-Redynox  
+**Date:** September 2026  
+
+---
+
+## EXECUTIVE OVERVIEW
+This document summarizes the technical methodologies, attack vectors, risk assessments, and remediation strategies executed across Tasks 01 and 02 of the Redynox Cybersecurity Curriculum. All exercises were conducted in controlled virtual lab environments using Kali Linux, Burp Suite, and standard penetration testing frameworks.
+
+---
+
+# TASK 01: ENVIRONMENT SETUP & NETWORK RECONNAISSANCE
+
+### 1. Objectives & Scope
+* **Environment:** Kali Linux VM (Guest) hosted on Windows via VirtualBox.
+* **Goal:** Establish a localized security lab, verify network connectivity, and perform target discovery using active scanning techniques.
+
+### 2. Execution & Methodology
+1. **Lab Virtualization:** Deployed Kali Linux VM and configured host-only and bridged network adapters for isolated target auditing.
+2. **Network Discovery (`nmap`):** Executed initial host discovery and port scanning against local targets to identify running services and open ports.
+   ```bash
+   nmap -sV -sC -p- <target-ip>
