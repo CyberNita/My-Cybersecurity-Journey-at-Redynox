@@ -1,0 +1,18 @@
+# Task 02: Web Application Security – SQL Injection (SQLi)
+
+## 📌 Executive Summary
+This project demonstrates hands-on web application auditing and exploitation using **Burp Suite Community Edition** as an intercepting proxy on Kali Linux. The goal was to identify, analyze, and exploit a SQL Injection (SQLi) vulnerability within an un-sanitized product category filter, forcing the backend database to display hidden and unreleased catalog items.
+
+---
+
+## 📂 Directory Structure
+```text
+Task-2-Web-App-Security/
+├── README.md                  # Project landing page & overview
+├── report.md                  # Detailed technical audit report
+├── exploits/
+│   └── sqli_payloads.txt      # Reference list of standard SQLi payloads
+└── screenshots/
+    ├── 01-intercepted-request.png # Intercepted HTTP request in Burp Suite
+    ├── 02-lab-solved.pnga         # Browser confirmation of unreleased products
+    └── 02-lab-solved.pngb         # Lab solved notification banner
